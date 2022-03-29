@@ -5872,6 +5872,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1524739436, guid: e0f1d7c3cd3066d4ab57c238f087f7f6, type: 3}
+      propertyPath: scalePlus
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1524739436, guid: e0f1d7c3cd3066d4ab57c238f087f7f6, type: 3}
       propertyPath: restartPanel
       value: 
       objectReference: {fileID: 2093098388}

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Damage : MonoBehaviour
+public class ScalePlayer : MonoBehaviour
 {
     [SerializeField] private GameObject player, restartPanel;
     [SerializeField] private Vector2 playerScale;
@@ -29,9 +29,12 @@ public class Damage : MonoBehaviour
         {
             playerScale.x = maxScale;
         }
-
-
     }
+
+    /*private void FixedUpdate()
+    {
+        playerScale.x += scalePlus;
+    }*/
 
     private void OnTriggerEnter(Collider other)
     {
